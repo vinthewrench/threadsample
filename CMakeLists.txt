@@ -60,4 +60,5 @@ add_custom_target(copy_assets
      COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_LIST_DIR}/Assets ${CMAKE_BINARY_DIR}
  )
 
-add_dependencies(foo copy_assets)
+# add this in if you want to copy an assets directory too
+#add_dependencies(foo copy_assets)
