@@ -15,12 +15,11 @@ find_package(Threads)
  
 set(SOURCES
 	src/main.cpp
-	src/FooMg.cpp
+	src/FooMgr.cpp
 )
 
  
 add_executable(foo ${SOURCES})
-
 
 set_target_properties(foo PROPERTIES
 				CXX_STANDARD 17
